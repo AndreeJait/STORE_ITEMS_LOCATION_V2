@@ -7,7 +7,8 @@ This app use to show location production in map.
 
 ## How to run
 1. Copy config.exampe.txt to config.txt
-2. Run App.java 
+2. Add library mysql-connector-java-5.1.49.jar
+3. Run App.java 
 
 # Doccumentaion
 ![image](https://user-images.githubusercontent.com/65846121/151694916-8f35dd38-9588-4aa7-9d52-9bd7220104cf.png)
