@@ -22,7 +22,11 @@ public class Config {
         Scanner myReader = new Scanner(file);
         while(myReader.hasNextLine()){
             String[] env = myReader.nextLine().split("=");
-            Config.ENV.put(env[0], env[1]);
+            if(env.length == 2){
+                Config.ENV.put(env[0], env[1]);
+            }else{
+                Config.ENV.put(env[0], "");
+            }
         }
     }
 }
